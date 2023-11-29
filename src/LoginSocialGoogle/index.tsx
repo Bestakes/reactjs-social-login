@@ -111,7 +111,7 @@ const LoginSocialGoogle = ({
         });
 
         fetch(
-          `${PREVENT_CORS_URL}/https://www.googleapis.com/oauth2/v3/userinfo?alt=json`,
+          `https://www.googleapis.com/oauth2/v3/userinfo?alt=json`,
           {
             method: 'GET',
             headers,
